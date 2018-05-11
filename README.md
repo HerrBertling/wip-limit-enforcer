@@ -1,6 +1,6 @@
 # wip-limit-enforcer
 
-> a GitHub App built with [probot](https://github.com/probot/probot) that 
+> A small [probot](https://github.com/probot/probot) app to enforce your work in progress limit on pull requests
 
 ## Setup
 
