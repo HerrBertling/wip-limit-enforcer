@@ -2,7 +2,8 @@
   "name": "wip-limit-enforcer",
   "version": "1.0.0",
   "description": "",
-  "author": "Markus Siering <markus277@gmail.com> (https://www.markussiering.com)",
+  "author":
+    "Markus Siering <markus277@gmail.com> (https://www.markussiering.com)",
   "license": "ISC",
   "repository": "https://github.com/HerrBertling/wip-limit-enforcer.git",
   "scripts": {
@@ -13,6 +14,7 @@
     "test:watch": "jest --watch --notify --notifyMode=change --coverage"
   },
   "dependencies": {
+    "joi": "^13.2.0",
     "probot": "^6.0.0"
   },
   "devDependencies": {
@@ -25,8 +27,6 @@
     "node": ">= 8.3.0"
   },
   "standard": {
-    "env": [
-      "jest"
-    ]
+    "env": ["jest"]
   }
 }

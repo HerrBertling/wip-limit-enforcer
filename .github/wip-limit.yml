@@ -1,0 +1,4 @@
+wipLimit: 3
+closeMessage: "Thanks for your pull request! Currently, there are more than 10 pull requests open. In order to keep the work in progress limited, we will close here and add a `backlog` label to this pull request."
+backlogLabel: "backlog"
+filterWords: ["fix", "bugfix"]
